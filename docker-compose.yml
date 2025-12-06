@@ -9,7 +9,7 @@ services:
     ports:
       - "5000:5000"
     environment:
-      - MONGO_URI=mongodb://admin:adminpassword@mongo:27017/nuelbank?authSource=admin
+      - MONGO_URI=mongodb://admin:adminpassword@mongo:27017/nuel_bank?authSource=admin
     depends_on:
       - mongo
 
